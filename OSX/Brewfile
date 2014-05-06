@@ -26,8 +26,8 @@ install readline
 install apple-gcc42
 install pyenv
 install pyenv-virtualenv
-install ghc --cc=gcc-4.8.
-install haskell-platform  --cc=gcc-4.8
+install ghc --cc=gcc-4.8
+install haskell-platform --cc=gcc-4.8
 
 cask install alfred
 cask install google-chrome
