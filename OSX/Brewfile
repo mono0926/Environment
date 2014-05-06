@@ -15,7 +15,6 @@ install tmux
 install curl
 install vim
 install openssl
-install readline
 install wget
 install bash-completion
 install rbenv
@@ -26,6 +25,7 @@ install readline
 install apple-gcc42
 install pyenv
 install pyenv-virtualenv
+install gcc47
 install ghc --cc=gcc-4.8
 install haskell-platform --cc=gcc-4.8
 
