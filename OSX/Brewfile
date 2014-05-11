@@ -28,6 +28,7 @@ install pyenv
 install pyenv-virtualenv
 install ghc --cc=gcc-4.8.
 install haskell-platform  --cc=gcc-4.8
+install heroku
 
 cask install alfred
 cask install google-chrome
