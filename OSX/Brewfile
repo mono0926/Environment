@@ -17,6 +17,8 @@ install vim
 install openssl
 install wget
 install bash-completion
+install mercurial
+install go
 install rbenv
 install ruby-build
 install rbenv-gemset
