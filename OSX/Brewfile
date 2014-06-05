@@ -31,6 +31,7 @@ install heroku
 install gcc49
 install ghc --build-from-source --cc=gcc-4.9
 install haskell-platform --cc=gcc-4.9
+install redis
 
 cask install alfred
 cask install google-chrome
