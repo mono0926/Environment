@@ -2,10 +2,9 @@ update
 upgrade
 
 tap homebrew/versions
-tap phinze/homebrew-cask
 tap homebrew/binary
+tap sanemat/font
 
-install brew-cask
 install mysql
 install mongodb
 install couchdb
@@ -18,29 +17,12 @@ install openssl
 install wget
 install bash-completion
 install mercurial
-install go
 install rbenv
 install ruby-build
 install rbenv-gemset
 install rbenv-gem-rehash
 install readline
-install apple-gcc42
 install pyenv
 install pyenv-virtualenv
 install heroku
-install gcc49
-install ghc --build-from-source --cc=gcc-4.9
-install haskell-platform --cc=gcc-4.9
 install redis
-
-cask install alfred
-cask install google-chrome
-cask install firefox
-cask install virtualbox
-cask install vagrant
-cask install kobito
-cask install bettertouchtool
-cask install coteditor
-cask install skype
-
-cask alfred link # for Alfred
